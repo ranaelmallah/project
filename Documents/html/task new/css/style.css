@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    margin: 0px;
+    /* font-family: 'Caveat', cursive ; */
+}
+   nav{
+
+     display: flex;
+    background-color: #eee;
+    position: fixed;
+    justify-content: space-between;
+    height: 60px;
+    z-index:100;
+    width: 100%;
+    align-items: center;
+    border-bottom:3px solid black ;
+}
+span img{
+    width: 100%;
+    height: 50px;
+    margin-left: 100px;
+    
+}
+.links{
+    margin-right: 80px;
+  
+
+}
+.links a{
+    font-family: 'Courgette', cursive,; 
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+ }
+ .links  :hover{
+     color:rgb(130, 186, 223) ;
+ }
+ .links .home1{
+
+    color: rgb(130, 186, 223);
+}
+
+.header{
+    background-image: url(../imgs/nan.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:30px ;
+     height:670px;
+     
+} 
+
+
+.header .pharagrph{
+    
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  color: rgb(107, 107, 235);
+}
+.pharagrph h5{
+    color: black;
+}
+h3{
+justify-content: center;
+background-color: rgb(120, 174, 211);
+padding: 10px;
+color: white;
+
+text-align: center;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 20px ;
+}
+
+.img {
+    width:75% ;
+    height: 80%;
+    border: 5px solid rgb(160, 158, 158);
+    margin:40px 15px;
+
+}
+
+.lorem{
+    margin-left:  80px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+ 
+}
+.first{
+    padding-top: 50px;
+    font-size: 18px;
+line-height: 19px;}
+h4{
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.filds{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.filds div{
+    width: calc( 80% / 3);
+    margin: 20px;
+    text-align: center;
+}
+.filds  div img {
+    width: 100%;
+}
+.filds  div  :hover{
+    opacity: 50%;
+
+}
+.filds  div h4{
+    font-size: 25px;
+    text-align: center;
+}
+.filds  div button{
+
+    color:white;
+    background-color: rgb(109, 108, 108);
+    border: none;
+    padding: 12px 23px;
+    margin: 10px ;
+ font-size: 15px;
+    cursor: pointer;
+}
+ 
+.filds  div button:hover{
+    background-color: rgb(214, 214, 213);
+    color: black;
+}
+
+input,textarea{
+    display: block;
+    width: 70%;
+    margin: 15px 200px 35px ;
+    padding: 10px;
+    border-radius: 3px;
+}
+textarea{
+    height: 170px;
+    border-radius: 3px;
+
+}
+label{
+  
+   margin-left: 200px;
+}
+.button{
+cursor: pointer;
+    
+}
